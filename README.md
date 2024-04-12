@@ -1,6 +1,10 @@
 # TO-DO App
 
-![TO-DO App Screenshot](https://i.ibb.co/1Lp05yb/image.png)
+<div style="text-align:center;">
+    <img src="https://i.ibb.co/1Lp05yb/image.png" alt="TO-DO App Screenshot" width="30%" style="margin:auto;">
+</div>
+
+
 
 Este proyecto es aplicación de lista de tareas (TO-DO) construida con Vue 3, TypeScript, Pinia y con persistencia de datos en el local storage. Permite a los usuarios registrar, editar y eliminar tareas, así como filtrarlas por completado o pendiente. Además, cuenta con un diseño responsive para adaptarse a diferentes dispositivos.
 
@@ -38,4 +42,4 @@ npm run serve
 yarn serve
 ```
 
-Abre tu navegador y ve a http://localhost:8080 para ver la aplicación en acción.
+Abre tu navegador y ve a http://localhost:5173 para ver la aplicación en acción.
