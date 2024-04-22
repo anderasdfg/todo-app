@@ -31,19 +31,18 @@
 
 <template>
   <section class="task-item-container">
-    <div class="task-item-add">
+    <form class="task-item-add" @submit.prevent="addTask">
       <input
         id="content"
         v-model="task.description"
         type="text"
         name="content"
-        placeholder="☁️ Hacer una to-do..."
-        @keyup.enter="addTask" />
-      <button type="button" @click="addTask">
+        placeholder="☁️ Hacer una to-do..." />
+      <button type="submit">
         <span class="show-mobile">➕ </span>
         <span class="show-desktop">Agregar</span>
       </button>
-    </div>
+    </form>
   </section>
 </template>
 

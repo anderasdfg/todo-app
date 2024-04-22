@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import TaskItem from '../components/TaskItem.vue';
+  import AddTaskForm from '../components/AddTaskForm.vue';
   import Tasks from '../components/TaskList.vue';
   import TaskFilters from '../components/TaskFilters.vue';
   import TaskHeader from '../components/TaskHeader.vue';
@@ -8,7 +8,7 @@
 <template>
   <div class="todo-container">
     <TaskHeader />
-    <TaskItem />
+    <AddTaskForm />
     <Tasks class="scrolling" />
     <TaskFilters />
   </div>
